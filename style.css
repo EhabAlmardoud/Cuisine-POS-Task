@@ -1,0 +1,430 @@
+/*CSS File
+Author: Ehab AlMardoud
+ */
+
+/*Header */
+.header{
+    width: auto;
+    height: 7%;
+    border-bottom: 2px solid #888888;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(240,240,240,1));
+}
+
+.header_Logo{
+    width: auto;
+    height: 100%;
+    padding-left: 10px;
+    float: left;
+}
+
+.header_Container{
+    height: 100%;
+    width: auto;
+    float: right;
+    margin: 0 10px 0px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header_Container_text{
+    color: #e43d3f;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.header_Container_dropdownButton{
+    color: #e43d3f;
+    font-size: 17px;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.header_Container_dropdownButton:hover{
+    background-image: none;
+    background-color:  #e43d3f;
+    color: #f2f2f2;
+}
+
+.header_Container_dropdownContent{
+    display: none;
+    overflow: auto;
+    color: #e43d3f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*Main Page */
+.mainContainer{
+    width: 100%;
+    height: 92%;
+    border: 1px solid black;
+    border-top: 0px;
+}
+
+
+/*Left Panel */
+.leftPanel{
+    width: 35%;
+    height: 100%;
+    background-color: #f1f1f1;
+    border-right: 1px solid #888888;
+    float: left;
+    overflow: auto;
+}
+
+.leftPanel_TopInfo{
+    height: 7%;
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.leftPanel_TopInfo_element{
+    width: 33%;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.leftPanel_orderNumber{
+    float: left;
+    width: 45%;
+    height: 5%;
+    color: black;
+    font-size: 25px;
+    padding: 0px 0px 5px 15px;
+    font-weight: bolder;
+}
+
+.leftPanel_customerName{
+    float: right;
+    height:7%;
+    width: 49%;
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+    margin: 3px 3px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+    border-radius: 30px;
+}
+
+.leftPanel_cashierName{
+    float: left;
+    height: 5%;
+    width: 45%;
+    display: block;
+    color: black;
+    font-size: 15px;
+    padding: 0px 0px 0px 15px;
+    font-weight: bold;
+}
+
+.leftPanel_orderInfo{
+    width: 99%;
+    height: 6%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+    border: 1px dotted gray;
+}
+
+.leftPanel_orderInfo_element{
+    width: 10%;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-left: 1px dotted gray;
+    padding-left: 5px;
+}
+
+.leftPanel_orders{
+    width: 99%;
+    height: 45%;
+    border: 1px dotted gray;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(220,220,220,1));
+}
+
+.leftPanel_orderTotal{
+    width: 99%;
+    height: 13.5%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+}
+
+.leftPanel_orderTotal_element{
+    height: 100%;
+    width: 33%;
+
+}
+
+.leftPanel_orderTotal_element_fastCash{
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+    text-align: center;
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin: 2px 5px 5px 5px;
+}
+
+.leftPanel_orderTotal_element_fastCash:hover{
+    background-image: none;
+    background-color: orange;
+    color: #f2f2f2;
+}
+
+.leftPanel_orderTotal_element_discountsTax{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+}
+
+.leftPanel_orderTotal_element_discountsTax_element{
+    width: 100%;
+    height: 33%;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+.leftPanel_orderTotal_element_discountsTax_element:first-child{
+    padding-top: 5px;
+}
+
+.leftPanel_orderTotal_element_total{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px;
+}
+
+.leftPanel_orderTotal_element_total_total{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: #e43d3f;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px 5px 5px 5px;
+}
+
+.leftPanel_orderTotal_element_total_balance{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: #0f0f0f;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 0px 5px 5px 5px;
+}
+
+.leftPanel_orderButtons{
+    width: 99%;
+    height: 15%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.leftPanel_orderButtons_elements{
+    width: 25%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+    border: 1px dotted gray;
+    text-align: center;
+    color: #e43d3f;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.leftPanel_orderButtons_elements:hover{
+    background-image: none;
+    background-color:  #e43d3f;
+    color: #f2f2f2;
+}
+
+/* Right Panel */
+.rightPanel{
+    width: 63%;
+    height: 100%;
+    background-color: #f1f1f1;
+    float:left;
+    padding-left: 5px;
+    overflow: auto;
+}
+
+.rightPanel:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rightPanel_searchBox{
+    width: auto;
+    height: 5%;
+    padding: 10px 5px 5px 5px;
+}
+
+.rightPanel_searchBox_input{
+    width: 100%;
+    height: 80%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    size: 20px;
+}
+
+.rightPanel_searchBox_input:active{
+    border: 2px solid blue;
+}
+
+.rightPanel_menu{
+    width: auto;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.rightPanel_menu_elements{
+    width: 20%;
+    height: 100%;
+    border: 1px dotted gray;
+    text-align: center;
+    color: #e43d3f;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+}
+
+.rightPanel_menu_elements:first-child{
+    border-top-left-radius: 15px;
+    margin-left:  5px;
+}
+
+.rightPanel_menu_elements:last-child{
+    border-top-right-radius: 15px;
+    margin-right:  5px;
+}
+
+.rightPanel_menu_elements:hover{
+    background-image: none;
+    background-color:  #e43d3f;
+    color: #f2f2f2;
+}
+
+
+.rightPanel_subMenu{
+    width: auto;
+    height: 11%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: 1px dotted #666666;
+}
+
+.rightPanel_subMenu_elements{
+    width: 20%;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    color: Gray;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.rightPanel_subMenu_elements:first-child{
+    margin-left:  5px;
+    border-left: 1px dotted gray;
+}
+
+.rightPanel_subMenu_elements:last-child{
+    margin-right:  5px;
+    border-right: 1px dotted gray;
+}
+
+.rightPanel_subMenu_elements:hover{
+    border-bottom: 6px solid #e43d3f;
+    color: #e43d3f;
+}
+
+.rightPanel_orders{
+    width: auto;
+    height: auto;
+    border: 1px solid #f2f2f2;
+    margin: 0px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.rightPanel_orders_elements{
+    width: 15%;
+    height: 20%;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,1));
+    border: 1px dotted #f3f3f3;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    color: Gray;
+    font-size: 18px;
+}
+
+.rightPanel_orders_elements:hover{
+    background-image: none;
+    background-color:  #e43d3f;
+    color: #f2f2f2;
+}
+
+.rightPanel_orders_elements:active{
+    transform: translateY(4px);
+}
